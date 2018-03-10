@@ -1,0 +1,26 @@
+$quote-font: "Lora", serif;
+
+.jumbotron {
+  background: transparent;
+  font-family: $quote-font;
+  svg {
+    font-size: 3rem;
+    color: grey;
+  }
+  #quote {
+    font-size: 2rem;
+    width: 65%;
+  }
+  #quote-title {
+    font-size: 1rem;
+    width: 65%
+  }
+  #quote-source {
+    width: 65%;
+    text-align: right;
+  }
+  .button-wrapper {
+    width: 65%;
+    margin-top: 0.5rem;
+  }
+}
